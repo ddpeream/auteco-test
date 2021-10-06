@@ -1,0 +1,86 @@
+.section {
+    width:100%;
+    height:55%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    position:relative;
+    top: 50px;
+}
+
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: darkgray;
+    padding-bottom: 30px;
+}
+
+.footer2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 0.5%;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.social-media {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid black;
+}
+
+.twitter {
+    font-size: 45px;
+}
+
+.foo-cuenta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.footer-cuenta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.footer-crecursos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.foot-separa {
+    margin-top: 14px;
+}
+.a {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.buscar {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}

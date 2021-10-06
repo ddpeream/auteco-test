@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    padding: 10px 53px;
+    width: 90%;  
+    font-size: 13px;
+}
+
+.caracter {
+    margin-right: 20px;
+}
+
+.p {
+    background-color: gray;
+    padding: 11px;
+    margin: 2px;
+}
+
+.card {
+    border-bottom: 1px solid black; 
+    width: 85%; 
+    height: 100%;
+}
+
+.fig {
+    display: flex; 
+    justify-content: end;
+}
+
+.cora {
+    width: 27px; 
+    height: 27px; 
+}
+
+.fig-zap {
+    width: 200px;
+}

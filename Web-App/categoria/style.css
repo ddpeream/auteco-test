@@ -1,0 +1,14 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
